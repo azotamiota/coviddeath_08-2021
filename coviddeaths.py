@@ -38,5 +38,5 @@ table.plot(ax=base, column='death_per_1mil', cmap='inferno_r',
 # Optimize appearance
 plt.xstick([])
 plt.ystick([])
-plt.tightlayout()
+plt.tight_layout()
 plt.show()
